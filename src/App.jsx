@@ -1,6 +1,6 @@
 
 import Navbar from './Components/Navbar'
-import Slider from './Components/Slider'
+import Home from './Pages/Home'
 
 function App() {
   
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
      <Navbar/>
-     <Slider/>
+     <Home/>
     </>
   )
 }

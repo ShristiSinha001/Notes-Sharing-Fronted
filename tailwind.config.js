@@ -6,7 +6,11 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        display:["Courgette","swap"]
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')
